@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: beyakan;
+    src: url('font/Yekan.ttf') format('truetype');
+}
+@font-face {
+    font-family: lalezar;
+    src: url('font/Lalezar-Regular.ttf');
+}
+body{
+    font-family: beyakan;
+}
+.header{
+    height: 700px;
+    background-image: url('images/header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 35px;
+    text-align: center;
+    color: white;
+}
+.header .nav-list{
+    list-style-type: none;
+ 
+}
+.header .nav-list .list-item{
+    display: inline-block;
+    padding: 15px;
+    font-weight: 700;
+}
+.header .nav-list .list-item:hover{
+    color: orange;
+}
+.header h1{
+    font-size: 60px;
+    font-family: lalezar;
+    margin-top: 90px;
+}
+
+.header h1 span{
+    color: orange;
+}
+
+.desc{
+    font-size: 18px;
+    font-family: beyakan;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0,.3);
+    width: 450px;
+    height: 55px;
+    line-height: 55px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 30px;
+}
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 15px gray;
+}
+.member-image{
+    width: 100%;
+}
+.member-desc{
+ padding: 20px;  
+ text-align: justify; 
+ font-family: lalezar;
+}
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.about{
+    height: 700px;
+    background-image: url('images/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(135, 135, 135,.3);
+    border-radius: 50%;
+    margin: auto;
+    padding: 100px 120px;
+    text-align: center;
+}
+.circle h2{
+    font-size: 35px;
+    color: white;
+}
+.circle p{
+    margin-top: 40px;
+    text-align: justify;
+}
